@@ -22,7 +22,7 @@ Accompanying code and data for the manuscript: <!-- TODO: Add link -->
 The notebook `./code/visualise_model_explanations.ipynb` can be used to visualise the interpretation of predictions
 of the validation set for the public Ames mutagencity model. 
 
-## Depenencies
+## Dependencies
 
 | Library           | Version       |
 | -----------       | -----------   |
