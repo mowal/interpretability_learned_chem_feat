@@ -12,7 +12,10 @@ df_val = PandasTools.LoadSDF('../data/val_set_Ames.sdf', idName='internalID', mo
 df_val.set_index('internalID', inplace=True)
 df_val = df_val.astype({'Activity':float})
 
-df_substructures = pd.read_csv('../results_ames_test/substructures.csv')
+#df_substructures = pd.read_csv('../data/substructures_ames.csv')
+df_substructures1 = pd.read_csv('../data/substructures_ames_chunk1.csv')
+df_substructures2 = pd.read_csv('../data/substructures_ames_chunk2.csv')
+df_substructures = pd.concat([df_substructures1,df_substructures2], axis=0)
 df_substructures = convert_atom_weights_col(df_substructures)
 
 #turn columns in df_substructures back to set type
