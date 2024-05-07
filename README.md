@@ -1,6 +1,8 @@
 # Interpreting Neural Network Models for Toxicity Prediction by Extracting Learned Chemical Features
 
-Accompanying code and data for the manuscript: <!-- TODO: Add link -->
+Accompanying code and data for the manuscript: [https://doi.org/10.1021/acs.jcim.4c00127]
+
+Copyright (c) 2024 Lhasa Limited and The University of Sheffield
 
 ## Respository structure
 
